@@ -1,0 +1,30 @@
+{
+  "name": "node-haproxy-pagerly",
+  "version": "0.1.0",
+  "description": "HAProxy stat engine for pushing stats to pagerly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james-huston/node-haproxy-pagerly.git"
+  },
+  "keywords": [
+    "HAProxy",
+    "Pager.ly"
+  ],
+  "author": "James Huston",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/james-huston/node-haproxy-pagerly/issues"
+  },
+  "homepage": "https://github.com/james-huston/node-haproxy-pagerly",
+  "dependencies": {
+    "debug": "^1.0.4",
+    "envcfg": "^0.1.1",
+    "haproxy-stat": "^0.1.0",
+    "serial-number": "^0.3.0",
+    "superagent": "^0.18.2"
+  }
+}
